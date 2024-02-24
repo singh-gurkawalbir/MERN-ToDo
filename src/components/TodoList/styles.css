@@ -1,0 +1,29 @@
+ul {
+  padding: 0;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 1rem;
+}
+
+span.Text {
+  text-decoration: none; 
+}
+
+span.Text:first-letter {
+  text-transform: capitalize;
+}
+
+span.Text.isCompleted {
+  color: red;
+  text-decoration: line-through;
+}
+
+span.DeleteIcon {
+  cursor: pointer;
+}
